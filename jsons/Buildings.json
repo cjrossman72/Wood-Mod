@@ -46,7 +46,6 @@
   },
   {
     "name": "Timber Ramparts",
-    "replaces": "Walls",
     "cityStrength": 5,
     "cityHealth": 25,
     "hurryCostModifier": 25,
