@@ -410,7 +410,7 @@ BuildingIcons/Rök Runestone
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Lumberjack
+ImprovementIcons/Logging
   rotate: false
   xy: 500, 0
   size: 100, 100
