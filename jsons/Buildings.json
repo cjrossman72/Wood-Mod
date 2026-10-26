@@ -1,25 +1,83 @@
 [
-	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
-	},
-	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+  {
+    "name": "Sawmill",
+    "requiredTech": "Masonry",
+    "production": 1,
+    "cost": 125,
+    "requiredNearbyImprovedResources": [
+      "Timber"
+    ],
+    "hurryCostModifier": 25,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "[+1 Production] <after discovering [Engineering]>",
+      "[+1 Production] from [Timber] tiles [in this city]",
+      "Triggers a [Craft Wood] event <every [10] turns>"
+    ]
+  },
+  {
+    "name": "Kiln",
+    "requiredTech": "Masonry",
+    "production": 1,
+    "cost": 125,
+    "requiredNearbyImprovedResources": [
+      "Clay"
+    ],
+    "hurryCostModifier": 25,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "[+1 Production] <after discovering [Engineering]>",
+      "[+1 Production] from [Clay] tiles [in this city]",
+      "Provides [1] [Brick] <for every [{improved} {Clay}]> <in this city> <upon turn end> <every [10] turns>"
+    ]
+  },
+  {
+    "name": "Shipyard",
+    "requiredTech": "Shipbuilding",
+    "cost": 125,
+    "hurryCostModifier": 25,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "Enables [Explorer] units to enter ocean tiles",
+      "All newly-trained [{Military} {Water}] units [in all cities] receive the [Boarding Party I] promotion",
+      "[{Military} {Water}] units gain the [Boarding Party I] promotion",
+      "Must be next to [Coast]"
+    ]
+  },
+  {
+    "name": "Timber Ramparts",
+    "replaces": "Walls",
+    "cityStrength": 5,
+    "cityHealth": 25,
+    "hurryCostModifier": 25,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "All newly-trained [Warrior] units [in all cities] receive the [Shock I] promotion",
+      "[Warrior] units gain the [Shock I] promotion"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Defensive timber log walls eight to ten feet high with angled, spiked logs facing outward to prevent mounted units from jumping the wall."
+      }
+    ],
+    "requiredResource": "Wood",
+    "requiredTech": "Woodworking"
+  },
+  {
+    "name": "Seawall",
+    "requiredTech": "Construction",
+    "cityStrength": 5,
+    "cityHealth": 50,
+    "hurryCostModifier": 25,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "[{Your} {Water}] Units adjacent to this city heal [5] HP per turn when healing",
+      "Consumes [2] [Wood]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "These defense structures are constructed near to coasts to protect ships and to repel sea-faring invaders."
+      }
+    ]
+  }
 ]
