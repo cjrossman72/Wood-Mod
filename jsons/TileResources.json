@@ -7,7 +7,7 @@
       "Forest",
       "Jungle"
     ],
-    "improvement": "Logger",
+    "improvement": "Logging",
     "uniques": [
       "Generated with weight [60] <in [Forest] Regions>",
       "Generated with weight [40] <in [Jungle] Regions>",
