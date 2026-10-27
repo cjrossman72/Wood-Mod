@@ -71,9 +71,10 @@
     "cityHealth": 50,
     "hurryCostModifier": 25,
     "uniques": [
-      "Only available <when number of [Wood] is more than [1]>",
+      "Only available <when number of [Timber] is more than [1]>",
       "Destroyed when the city is captured",
-      "[{Your} {Water}] Units adjacent to this city heal [5] HP per turn when healing"
+      "[{Your} {Water}] Units adjacent to this city heal [5] HP per turn when healing",
+      "Consumes [1] Timber"
     ],
     "civilopediaText": [
       {
