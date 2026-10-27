@@ -20,7 +20,8 @@
       {
         "text": "Makes [Wood]",
         "uniques": [
-          "Provides [1] [Wood] <for every [{improved} {Timber}]> <in this city>"
+          "Provides [1] [Wood] <for every [{improved} {Timber}]> <in this city>",
+          "Triggers the following global alert: [Your sawmill produced Wood!]"
         ]
       }
     ]

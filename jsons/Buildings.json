@@ -12,7 +12,7 @@
       "Destroyed when the city is captured",
       "[+1 Production] <after discovering [Engineering]>",
       "[+1 Production] from [Timber] tiles [in this city]",
-      "Triggers a [Craft Wood] event <every [10] turns>"
+      "Triggers a [Craft Wood] event <upon discovering [Construction] technology>"
     ]
   },
   {
@@ -28,7 +28,7 @@
       "Destroyed when the city is captured",
       "[+1 Production] <after discovering [Engineering]>",
       "[+1 Production] from [Clay] tiles [in this city]",
-      "Provides [1] [Brick] <for every [{improved} {Clay}]> <in this city> <upon turn end> <every [10] turns>"
+      "Provides [1] [Brick] <for every [{improved} {Clay}]> <in this city> <upon constructing [Culture]>"
     ]
   },
   {
@@ -69,6 +69,7 @@
     "cityHealth": 50,
     "hurryCostModifier": 25,
     "uniques": [
+      "Only available <when number of [Wood] is more than [1]>",
       "Destroyed when the city is captured",
       "[{Your} {Water}] Units adjacent to this city heal [5] HP per turn when healing",
       "Consumes [2] [Wood]"
