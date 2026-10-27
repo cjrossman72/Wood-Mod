@@ -28,12 +28,15 @@
       "Destroyed when the city is captured",
       "[+1 Production] <after discovering [Engineering]>",
       "[+1 Production] from [Clay] tiles [in this city]",
-      "Provides [1] [Brick] <for every [{improved} {Clay}]> <in this city> <upon constructing [Culture]>"
+      "Provides [1] [Brick] <for every [{improved} {Clay}]> <in this city> <after discovering [Construction]>"
     ]
   },
   {
     "name": "Shipyard",
     "requiredTech": "Shipbuilding",
+    "production": 1,
+    "science": 1,
+    "isWonder": true,
     "cost": 125,
     "hurryCostModifier": 25,
     "uniques": [
