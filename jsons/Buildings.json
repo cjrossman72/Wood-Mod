@@ -11,8 +11,7 @@
     "uniques": [
       "Destroyed when the city is captured",
       "[+1 Production] <after discovering [Engineering]>",
-      "[+1 Production] from [Timber] tiles [in this city]",
-      "Triggers a [Craft Wood] event <upon discovering [Construction] technology>"
+      "[+1 Production] from [Timber] tiles [in this city]"
     ]
   },
   {
@@ -27,8 +26,7 @@
     "uniques": [
       "Destroyed when the city is captured",
       "[+1 Production] <after discovering [Engineering]>",
-      "[+1 Production] from [Clay] tiles [in this city]",
-      "Provides [1] [Brick] <for every [{improved} {Clay}]> <in this city> <after discovering [Construction]>"
+      "[+1 Production] from [Clay] tiles [in this city]"
     ]
   },
   {
@@ -55,14 +53,15 @@
     "uniques": [
       "Destroyed when the city is captured",
       "All newly-trained [Warrior] units [in all cities] receive the [Shock I] promotion",
-      "[Warrior] units gain the [Shock I] promotion"
+      "[Warrior] units gain the [Shock I] promotion",
+      "Consumes [2] [Timber]"
     ],
     "civilopediaText": [
       {
         "text": "Defensive timber log walls eight to ten feet high with angled, spiked logs facing outward to prevent mounted units from jumping the wall."
       }
     ],
-    "requiredResource": "Wood",
+    "requiredResource": "Timber",
     "requiredTech": "Woodworking"
   },
   {
@@ -74,8 +73,7 @@
     "uniques": [
       "Only available <when number of [Wood] is more than [1]>",
       "Destroyed when the city is captured",
-      "[{Your} {Water}] Units adjacent to this city heal [5] HP per turn when healing",
-      "Consumes [2] [Wood]"
+      "[{Your} {Water}] Units adjacent to this city heal [5] HP per turn when healing"
     ],
     "civilopediaText": [
       {

@@ -46,9 +46,7 @@
       "Pillaging this improvement yields approximately [+10 Gold]",
       "Does not need removal of [Forest]",
       "Does not need removal of [Jungle]",
-      "Can only be built to improve a resource",
-      "Provides [1] [Wood] <after discovering [Shipbuilding]>",
-      "Provides [2] [Wood] <after discovering [Construction]>"
+      "Can only be built to improve a resource"
     ],
     "shortcutKey": "L"
   },
@@ -61,8 +59,7 @@
     "uniques": [
       "[+1 Production] <after discovering [Chemistry]>",
       "Can only be built to improve a resource",
-      "Pillaging this improvement yields approximately [+20 Gold]",
-      "Provides [2] [Brick] <in [Clay] tiles>"
+      "Pillaging this improvement yields approximately [+20 Gold]"
     ]
   },
   {
