@@ -55,8 +55,7 @@
     "uniques": [
       "Destroyed when the city is captured",
       "All newly-trained [Warrior] units [in all cities] receive the [Shock I] promotion",
-      "[Warrior] units gain the [Shock I] promotion",
-      "Consumes [2] [Timber]"
+      "[Warrior] units gain the [Shock I] promotion"
     ],
     "civilopediaText": [
       {
@@ -76,14 +75,14 @@
       "Only available <when number of [Timber] is more than [1]>",
       "Destroyed when the city is captured",
       "[{Your} {Water}] Units adjacent to this city heal [5] HP per turn when healing",
-      "Consumes [1] Timber",
       "Must be next to [Coast]"
     ],
     "civilopediaText": [
       {
         "text": "These defense structures are constructed near to coasts to protect ships and to repel sea-faring invaders."
       }
-    ]
+    ],
+    "requiredResource": "Clay"
   },
   {
     "name": "Horyu-ji Temple",
