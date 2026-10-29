@@ -361,9 +361,6 @@
       "Doesn't generate naturally",
       "Cannot be traded <hidden from users>",
       "Stockpiled <hidden from users>"
-    ],
-    "civilopediaText": [
-      "[Brick] is produced by improving [Clay] tiles and constructing building to process the [Clay]"
     ]
   }
 ]
