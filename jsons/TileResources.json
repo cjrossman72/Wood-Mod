@@ -352,9 +352,6 @@
       "Cannot be traded <hidden from users>",
       "Stockpiled <hidden from users>",
       "Instantly provides [2] [Wood]"
-    ],
-    "civilopediaText": [
-      "[Wood] is produced by improving [Timber] tiles and constructing building to process the [Timber]"
     ]
   },
   {
@@ -364,9 +361,6 @@
       "Doesn't generate naturally",
       "Cannot be traded <hidden from users>",
       "Stockpiled <hidden from users>"
-    ],
-    "civilopediaText": [
-      "[Brick] is produced by improving [Clay] tiles and constructing building to process the [Clay]"
     ]
   }
 ]
