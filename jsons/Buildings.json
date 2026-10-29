@@ -1,0 +1,187 @@
+[
+  {
+    "name": "Lumber Camp",
+    "requiredTech": "Woodworking",
+    "production": 1,
+    "cost": 50,
+    "requiredNearbyImprovedResources": [
+      "Timber"
+    ],
+    "hurryCostModifier": 25,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "[+1 Production] <after discovering [Engineering]>",
+      "[+1 Production] from [Timber] tiles [in this city] <after discovering [Mathmatics]>",
+      "Instantly provides [2] [Wood]"
+    ]
+  },
+  {
+    "name": "Stone Works",
+    "requiredTech": "Calendar",
+    "happiness": 1,
+    "production": 1,
+    "requiredNearbyImprovedResources": [
+      "Marble",
+      "Stone"
+    ],
+    "maintenance": 1,
+    "hurryCostModifier": 0,
+    "uniques": [
+      "Must not be on [Plains]",
+      "[+1 Production] from [Stone] tiles [in this city]",
+      "[+1 Production] from [Marble] tiles [in this city]",
+      "Instantly provides [2] [Brick]"
+    ]
+  },
+  {
+    "name": "Sawmill",
+    "requiredTech": "Iron Working",
+    "production": 1,
+    "cost": 125,
+    "requiredNearbyImprovedResources": [
+      "Timber"
+    ],
+    "hurryCostModifier": 25,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "[+1 Production] <after discovering [Steel]>",
+      "[+1 Production] from [Timber] tiles [in this city]",
+      "Instantly provides [2] [Wood]"
+    ]
+  },
+  {
+    "name": "Kiln",
+    "requiredTech": "Pottery",
+    "culture": 1,
+    "cost": 50,
+    "requiredNearbyImprovedResources": [
+      "Clay"
+    ],
+    "hurryCostModifier": 25,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "[+1 Production] <after discovering [Engineering]>",
+      "[+1 Production] from [Clay] tiles [in this city] <after discovering [Construction]>",
+      "Instantly provides [2] [Brick]"
+    ]
+  },
+  {
+    "name": "Water Mill",
+    "requiredTech": "The Wheel",
+    "maintenance": 2,
+    "food": 2,
+    "production": 1,
+    "hurryCostModifier": 25,
+    "uniques": [
+      "Must be on [River]",
+      "Instantly provides [2] [Wood]"
+    ]
+  },
+  {
+    "name": "Brickworks",
+    "requiredTech": "Engineering",
+    "production": 1,
+    "cost": 125,
+    "requiredNearbyImprovedResources": [
+      "Clay"
+    ],
+    "hurryCostModifier": 25,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "[+1 Production] <after discovering [Machinery]>",
+      "[+1 Culture] from [Clay] tiles [in this city]",
+      "Instantly provides [2] [Clay]"
+    ]
+  },
+  {
+    "name": "Shipyard",
+    "requiredTech": "Shipbuilding",
+    "isWonder": true,
+    "production": 1,
+    "science": 1,
+    "cost": 125,
+    "hurryCostModifier": 25,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "Enables [Explorer] units to enter ocean tiles",
+      "All newly-trained [{Military} {Water}] units [in all cities] receive the [Boarding Party I] promotion",
+      "[{Military} {Water}] units gain the [Boarding Party I] promotion",
+      "Costs [2] [Wood]",
+      "Must be next to [Coast]"
+    ]
+  },
+  {
+    "name": "Timber Ramparts",
+    "cityStrength": 5,
+    "cityHealth": 25,
+    "hurryCostModifier": 25,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "All newly-trained [Warrior] units [in all cities] receive the [Shock I] promotion",
+      "[Warrior] units gain the [Shock I] promotion",
+      "Instantly consumes [2] [Wood]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Defensive timber log walls eight to ten feet high with angled, spiked logs facing outward to prevent mounted units from jumping the wall."
+      }
+    ],
+    "requiredResource": "Optics",
+    "requiredTech": "Shipbuilding"
+  },
+  {
+    "name": "Seawall",
+    "requiredTech": "Construction",
+    "cityStrength": 5,
+    "cityHealth": 50,
+    "hurryCostModifier": 25,
+    "uniques": [
+      "Only available <when number of [Timber] is more than [1]>",
+      "Destroyed when the city is captured",
+      "[{Your} {Water}] Units adjacent to this city heal [5] HP per turn when healing",
+      "Must be next to [Coast]",
+      "Instantly consumes [2] [Brick]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "These defense structures are constructed near to coasts to protect ships and to repel sea-faring invaders."
+      }
+    ],
+    "requiredResource": "Clay"
+  },
+  {
+    "name": "Horyu-ji Temple",
+    "isWonder": true,
+    "requiredTech": "Engineering",
+    "greatPersonPoints": {
+      "Great Engineer": 1
+    },
+    "faith": 2,
+    "culture": 3,
+    "cost": 175,
+    "hurryCostModifier": 25,
+    "uniques": [
+      "Destroyed when the city is captured",
+      "Instantly consumes [3] [Wood]"
+    ],
+    "civilopediaText": [
+      {
+        "text": "Built around 607 AD, it is widely recognized as one of the oldest surviving wooden-constructed buildings in the world, utilizing ancient Japanese cypress."
+      }
+    ]
+  },
+  {
+    "name": "Terracotta Army",
+    "culture": 6,
+    "isWonder": true,
+    "greatPersonPoints": {
+      "Great Artist": 1
+    },
+    "requiredTech": "Construction",
+    "uniques": [
+      "Destroyed when the city is captured",
+      "Instantly consumes [3] [Brick]"
+    ],
+    "quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
+  }
+]
