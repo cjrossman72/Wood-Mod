@@ -289,6 +289,10 @@
   {
     "name": "Copper",
     "resourceType": "Luxury",
+    "improvedBy": [
+      "Open Pit",
+      "Shaft Mine"
+    ],
     "terrainsCanBeFoundOn": [
       "Hill",
       "Forest",
@@ -297,10 +301,6 @@
       "Tundra"
     ],
     "gold": 2,
-    "improvedBy": [
-      "Open Mine",
-      "Shaft Mine"
-    ],
     "uniques": [
       "Generated with weight [15] <in [Tundra] Regions>",
       "Generated with weight [5] <in [Jungle] Regions>",
@@ -361,6 +361,9 @@
       "Doesn't generate naturally",
       "Cannot be traded <hidden from users>",
       "Stockpiled <hidden from users>"
+    ],
+    "civilopediaText": [
+      "[Brick] is produced by improving [Clay] tiles and constructing building to process the [Clay]"
     ]
   }
 ]
