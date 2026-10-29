@@ -126,8 +126,8 @@
         "text": "Defensive timber log walls eight to ten feet high with angled, spiked logs facing outward to prevent mounted units from jumping the wall."
       }
     ],
-    "requiredResource": "Optics",
-    "requiredTech": "Shipbuilding"
+    "requiredResource": "Wood",
+    "requiredTech": "Optics"
   },
   {
     "name": "Seawall",
