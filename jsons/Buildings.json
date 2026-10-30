@@ -12,7 +12,7 @@
       "Destroyed when the city is captured",
       "[+1 Production] <after discovering [Engineering]>",
       "[+1 Production] from [Timber] tiles [in this city] <after discovering [Mathmatics]>",
-      "Instantly provides [2] [Wood]"
+      "Instantly provides [1] [Wood] <for every [Timber]> <in this city>"
     ]
   },
   {
@@ -30,7 +30,7 @@
       "Must not be on [Plains]",
       "[+1 Production] from [Stone] tiles [in this city]",
       "[+1 Production] from [Marble] tiles [in this city]",
-      "Instantly provides [2] [Brick]"
+      "Instantly provides [1] [Brick] <for every [Clay]> <in this city>"
     ]
   },
   {
@@ -46,7 +46,7 @@
       "Destroyed when the city is captured",
       "[+1 Production] <after discovering [Steel]>",
       "[+1 Production] from [Timber] tiles [in this city]",
-      "Instantly provides [2] [Wood]"
+      "Instantly provides [1] [Wood] <for every [Timber]> <in this city>"
     ]
   },
   {
@@ -62,7 +62,7 @@
       "Destroyed when the city is captured",
       "[+1 Production] <after discovering [Engineering]>",
       "[+1 Production] from [Clay] tiles [in this city] <after discovering [Construction]>",
-      "Instantly provides [2] [Brick]"
+      "Instantly provides [1] [Brick] <for every [Clay]> <in this city>"
     ]
   },
   {
@@ -74,7 +74,7 @@
     "hurryCostModifier": 25,
     "uniques": [
       "Must be on [River]",
-      "Instantly provides [2] [Wood]"
+      "Instantly provides [1] [Wood] <for every [Timber]> <in this city>"
     ]
   },
   {
@@ -90,7 +90,7 @@
       "Destroyed when the city is captured",
       "[+1 Production] <after discovering [Machinery]>",
       "[+1 Culture] from [Clay] tiles [in this city]",
-      "Instantly provides [2] [Clay]"
+      "Instantly provides [1] [Brick] <for every [Clay]> <in this city>"
     ]
   },
   {
